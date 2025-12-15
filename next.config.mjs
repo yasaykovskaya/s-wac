@@ -6,6 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Статический экспорт для GitHub Pages
   output: "export",
 }
 

@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col items-center justify-between overflow-hidden bg-[#070532] p-3 text-white md:p-6">
+    <main className="relative flex h-dvh flex-col items-center justify-between overflow-hidden bg-[#070532] p-3 text-white md:p-6">
       {/* Logo */}
       <div className="w-full md:flex-none">
         <Link href="https://westacrecap.com/" target="_blank" rel="noopener noreferrer">
