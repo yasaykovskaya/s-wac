@@ -7,7 +7,7 @@
     "dev": "next dev",
     "lint": "eslint .",
     "start": "next start",
-    "build:pages": "next build && rm -rf docs && mv out docs && cp CNAME docs/ 2>/dev/null || true"
+    "build:pages": "next build && rm -rf docs && mv out docs && touch docs/.nojekyll && cp CNAME docs/ 2>/dev/null || true"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
