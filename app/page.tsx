@@ -3,10 +3,10 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col items-center justify-between overflow-hidden bg-[#070532] p-3 text-white md:p-6">
+    <main className="relative flex h-dvh flex-col items-center justify-between overflow-hidden bg-[#070532] p-3 text-white md:p-6">
       {/* Logo */}
       <div className="w-full md:flex-none">
-        <Link href="https://westacrecap.com/" target="_blank" rel="noopener noreferrer">
+        <Link href="/">
           <Image
             src="/images/logo-desktop.png"
             alt="West Acre Capital"
@@ -16,12 +16,7 @@ export default function Home() {
             priority
           />
         </Link>
-        <Link
-          href="https://westacrecap.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex justify-center md:hidden"
-        >
+        <Link href="/" className="flex justify-center md:hidden">
           <Image src="/images/logo-mobile.png" alt="West Acre Capital" width={45} height={45} priority />
         </Link>
       </div>

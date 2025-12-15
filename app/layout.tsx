@@ -12,21 +12,8 @@ export const metadata: Metadata = {
   description: "West Acre Capital - Palo Alto, CA, USA",
   generator: "West Acre Capital",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/images/logo-mobile.png",
+    apple: "/images/logo-mobile.png",
   },
 }
 
