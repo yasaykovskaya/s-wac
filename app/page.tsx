@@ -20,7 +20,7 @@ export default function Home() {
 
       <div className="w-full text-center text-[8px] md:text-[10px]">
         <p className="mb-0">Palo Alto, CA, USA</p>
-        <p>© 2025 West Acre Capital. All rights reserved.</p>
+        <p>© 2026 West Acre Capital. All rights reserved.</p>
       </div>
     </main>
   )
