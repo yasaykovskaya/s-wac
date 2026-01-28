@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     icon: "/images/logo_favicon.png",
     apple: "/images/logo_favicon.png",
   },
+  robots: {
+    maxImagePreview: "none",
+  },
 }
 
 export default function RootLayout({
