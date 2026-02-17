@@ -1,6 +1,6 @@
-## West Acre Capital website
+## wesbite
 
-Статический маркетинговый сайт West Acre Capital (Palo Alto, CA, USA), созданный на Next.js App Router.
+website, созданный на Next.js App Router.
 
 ### Стек
 
